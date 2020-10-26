@@ -81,7 +81,7 @@
           console.log('Welcome!  Fetching your information.... ');
           FB.api('/me', function(response) {
             console.log(response);
-            signinFB(response.name, response.AWS.Password,
+            /*signinFB(response.name, response.AWS.Password,
             function signinSuccess() {
                 console.log('Successfully Logged In');
                 window.location.href = 'ride.html';
@@ -89,7 +89,7 @@
             function signinError(err) {
                 alert(err);
             }
-        );
+        );*/
         });
       }
       </script>
